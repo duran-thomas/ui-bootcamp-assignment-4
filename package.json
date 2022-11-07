@@ -1,0 +1,29 @@
+{
+  "name": "ui-bootcamp-assignment-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duran-thomas/ui-bootcamp-assignment-4.git"
+  },
+  "author": "Duran Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duran-thomas/ui-bootcamp-assignment-4/issues"
+  },
+  "homepage": "https://github.com/duran-thomas/ui-bootcamp-assignment-4#readme",
+  "dependencies": {
+    "webdriverio": "^7.25.4"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^7.25.4",
+    "@wdio/local-runner": "^7.25.4",
+    "@wdio/mocha-framework": "^7.25.4",
+    "@wdio/selenium-standalone-service": "^7.25.4",
+    "@wdio/spec-reporter": "^7.25.4"
+  }
+}

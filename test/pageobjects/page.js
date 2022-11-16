@@ -8,6 +8,6 @@ module.exports = class Page {
     * @param path path of the sub page (e.g. /path/to/page.html)
     */
     open () {
-        return browser.url(`http://automationpractice.com/index.php`)
+        return browser.url(`https://magento.softwaretestingboard.com/`)
     }
 }

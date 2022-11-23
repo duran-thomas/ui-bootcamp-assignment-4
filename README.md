@@ -1,7 +1,7 @@
 
 # WebdriverIO Assignment
 
-Author: Duran Thoams
+Author: Duran Thomas
 
 
 ## Prerequisite

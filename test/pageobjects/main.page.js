@@ -2,6 +2,10 @@ const Page = require('./page')
 
 class MainPage extends Page{
 
+    get homePageLink(){
+        return $('.logo')
+    }
+
     get createAccountLink(){
         return $('div.header > ul.header.links > li:nth-child(3) a')
     }

@@ -34,6 +34,14 @@ class ProductDetails extends Page{
         return $('div.page.messages > div:nth-child(2) > div > div > div')
     }
 
+    get shoppingCartLink(){
+        return $('div.page.messages > div:nth-child(2) > div > div > div > a')
+    }
+
+    get pageTitle(){
+        return $('.page-title')
+    }
+
     addProductToCart(){
         this.getSizes(1).click()
         this.getColor(1).click()

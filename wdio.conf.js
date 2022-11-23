@@ -53,10 +53,14 @@ exports.config = {
         browserName: 'chrome',
         maxInstances: 5
     },
-    //  {
-    //     browserName: 'firefox',
-    //     maxInstances: 5
-    // }
+     {
+        browserName: 'firefox',
+        maxInstances: 5
+    },
+     {
+        browserName: 'MicrosoftEdge',
+        maxInstances: 5
+    }
     ],
     //
     // ===================
@@ -136,7 +140,7 @@ exports.config = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 60000
+        timeout: 100000
     },
     //
     // =====
